@@ -10,7 +10,7 @@ func TestRendaRate(t *testing.T) {
 	rate := &Rate{Freq: 100, Per: time.Second}
 	r := NewRenda()
 	var hits uint64
-	for _ = range r.Start(func() (interface{}, error) {
+	for range r.Start(func() (interface{}, error) {
 		hits++
 		return nil, nil
 	}, rate, 1*time.Second) {
