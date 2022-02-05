@@ -1,4 +1,4 @@
-# Renda
+# Renda [![Go](https://github.com/vvatanabe/renda/actions/workflows/go.yml/badge.svg)](https://github.com/vvatanabe/renda/actions/workflows/go.yml)
 
 Renda is a go library that repeatedly executes any processes.
 
